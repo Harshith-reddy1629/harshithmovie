@@ -1,0 +1,636 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* trendingNow */
+.slider-container {
+  padding-left: 166px;
+  padding-right: 166px;
+}
+.trending-now-container {
+  height: 30vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 160px;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+/* login-page */
+
+.login-container {
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.8) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('https://res.cloudinary.com/reddyimgs/image/upload/v1686991946/netfilx_1_b0vrsu.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.login-logo {
+  position: absolute;
+  width: 180px;
+  height: 52px;
+  left: 165px;
+  top: 48px;
+}
+
+.login-card {
+  height: 440px;
+  width: 456px;
+
+  border-radius: 8px;
+  opacity: 0.8;
+  background: #0c0b10;
+}
+
+.login-heading {
+  /* font-family: HK Grotesk; */
+  /* width: 78px; */
+  height: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.form-container {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.username-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.password-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.username-label {
+  width: 65px;
+  height: 16px;
+
+  font-style: normal;
+
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.password-label {
+  width: 65px;
+  height: 16px;
+
+  font-style: normal;
+
+  font-size: 12px;
+  line-height: 16px;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.username-input {
+  height: 40px;
+
+  top: 24px;
+  color: #fff;
+  background: #333333;
+  border-radius: 2px;
+  border: 0px;
+  outline: none;
+  padding: 8px;
+  padding-left: 16px;
+}
+
+.error-message {
+  margin-top: 12px;
+  width: 205px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc2626;
+}
+
+.login-button {
+  height: 40px;
+  width: 360px;
+
+  border-radius: 8px;
+  margin-top: 32px;
+
+  color: #f8fafc;
+
+  background: #e50914;
+  border-radius: 8px;
+  border: 0px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* home */
+.home-container {
+  min-height: 100vh;
+  background-color: #131313;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-heading {
+  margin-top: 48px;
+  margin-left: 166px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.home-poster-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 30vh;
+  margin: 165px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* header */
+
+.lg-header-container {
+  position: absolute;
+  height: 103px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: rgba(19, 19, 19, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.first-part {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-two {
+  margin-left: 24px;
+}
+.part-2 {
+  margin-left: 40px;
+}
+
+.second-part {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  height: 39px;
+  width: 135.00051879882812px;
+  left: 165px;
+  top: 32px;
+  border-radius: 0px;
+  opacity: unset;
+}
+
+.link-button {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  color: #fff;
+  padding: 0%;
+}
+
+.search-button {
+  margin-right: 32px;
+  font-size: 24px;
+}
+/* Poster */
+
+.poster-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: '605px';
+  color: #fff;
+}
+.poster-content {
+  /* background: radial-gradient(#00000066, transparent, transparent 60%); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 164px;
+  /* align-items: center; */
+}
+
+.mb-view {
+  display: none;
+}
+.lg-view {
+  display: block;
+}
+
+.poster-heading {
+  width: 312px;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 64px; */
+  line-height: 62px;
+  margin-bottom: 24px;
+}
+.poster-para {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.poster-button {
+  height: 40px;
+  width: 74px;
+
+  border-radius: 3px;
+  border: 0px;
+  outline: none;
+  /* margin-bottom: 146px; */
+}
+
+/* sliders */
+
+.slider-image {
+  height: 170px;
+  width: 254px;
+
+  border-radius: 8px;
+}
+
+.slide-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contactsList */
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 96px;
+}
+.contacts-list-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.contacts-head {
+  height: 24px;
+  width: 80px;
+  margin-bottom: 60px;
+}
+
+/* Popular */
+
+.popular-loader-container {
+  background-color: #131313;
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-image {
+  height: 170px;
+  width: 255px;
+  border-radius: 8px;
+}
+
+.popular-images-container {
+  padding: 134px 165px 0 165px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+}
+.search-container {
+  background-color: #131313;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-image-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hovers */
+
+.google:hover {
+  color: #0f9d58;
+}
+.twitter:hover {
+  color: #00acee;
+}
+.insta:hover {
+  color: #cd486b;
+}
+.youtube:hover {
+  color: #c4302b;
+}
+
+/* account */
+
+.account-container {
+  /* height: 100vh; */
+  background-color: #131313;
+  padding-top: 103px;
+}
+.account-card {
+  background-color: #fff;
+  padding: 64px 165px 0 165px;
+}
+
+.account-heading {
+  margin-bottom: 24px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.membership-container {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  flex-direction: row;
+}
+.plan-container {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  flex-direction: row;
+}
+.membership-text {
+  color: rgba(148, 163, 184, 1);
+  margin-right: 24px;
+}
+.password-text {
+  color: rgba(100, 116, 139, 1);
+  margin-top: 13px;
+}
+
+.ultra-text {
+  border: 2px solid;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.logout-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logout-button {
+  margin-bottom: 50px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  background: #e50914;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  outline: none;
+}
+
+.input-search-button {
+  background-color: #0c0b10;
+  width: 32px;
+}
+
+.search-input-container {
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  margin: 8px;
+  color: #fff;
+}
+.search-not-found-para {
+  color: #fff;
+  margin-top: 35px;
+}
+
+.not-found-container {
+  background: linear-gradient(
+      180deg,
+      #4368eb -37.08%,
+      rgba(164, 184, 255, 0) 100%
+    ),
+    url('https://res.cloudinary.com/reddyimgs/image/upload/v1687102679/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_kdsmci.png');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 125px;
+  color: #ffffff;
+}
+.not-found-para {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.not-found-button {
+  width: 127px;
+  height: 48px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 32px;
+}
+
+.poster-content-movie-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 166px;
+  width: 50%;
+  height: 100%;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    90.33deg,
+    #181818 -6.5%,
+    rgba(24, 24, 24, 0.6) 57.15%,
+    rgba(24, 24, 24, 0) 99.77%
+  );
+}
+.movie-details-runtime-container {
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 28px;
+}
+
+.movie-details-heading {
+  margin-bottom: 16px;
+}
+
+.sensor {
+  border: 1px solid;
+  padding: 3px 12px;
+}
+
+.movie-details-genres-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 166px;
+}
+.genre-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0%;
+}
+
+.detail-head {
+  color: rgba(148, 163, 184, 1);
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.genre-container {
+}
+.container {
+  background-color: #131313;
+}
+
+.genre {
+  color: #fff;
+}
+
+.similar-container {
+  padding-left: 166px;
+  color: #fff;
+}
+
+.similar-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 32px;
+}
+
+.more-head {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.popular-failed-container {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
