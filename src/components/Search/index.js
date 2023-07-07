@@ -25,7 +25,7 @@ class Search extends Component {
       })
       const jwtToken = Cookies.get('jwt_token')
 
-      const apiUrl = `https://apis.ccpb.in/movies-app/movies-search?search=${searchValue}`
+      const apiUrl = `https://apis.ccbp.in/movies-app/movies-search?search=${searchValue}`
       const options = {
         method: 'GET',
         headers: {
